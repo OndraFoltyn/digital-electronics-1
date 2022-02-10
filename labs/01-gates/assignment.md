@@ -1,4 +1,4 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: Ondrej Foltyn
 
 ### De Morgan's laws
 
@@ -39,3 +39,7 @@ end architecture dataflow;
 2. Link to your public EDA Playground example:
 
    [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+
+
+
+ZMENA PAK SMAZAT 
