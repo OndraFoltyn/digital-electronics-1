@@ -1,4 +1,4 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: Ondřej Foltyn
 
 ### De Morgan's laws
 
@@ -12,7 +12,7 @@
 architecture dataflow of demorgan is
 begin
     f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
-    f_nand_o <= -- WRITE YOUR CODE HERE
+    f_nand_o <= ((not(b_i) nand a_i) nand (not(c_i) nand not(b_i)));
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
 ```
