@@ -1,4 +1,4 @@
-# Lab 1: Ondrej Foltyn
+# Lab 1: Ondřej Foltyn
 
 ### De Morgan's laws
 
