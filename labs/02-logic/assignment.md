@@ -47,8 +47,8 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![Console](https://github.com/OndraFoltyn/digital-electronics-1/blob/main/labs/02-logic/images/console_scrnshot.png)
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [https://www.edaplayground.com/...](https://www.edaplayground.com/x/Afxn)
