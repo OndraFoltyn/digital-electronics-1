@@ -6,11 +6,11 @@
 
    Greater than:
 
-   ![K-maps](images/kmap_empty.png)
+   ![K-maps](https://github.com/OndraFoltyn/digital-electronics-1/blob/main/labs/02-logic/images/b_vetsi_nez_A.png)
 
    Less than:
 
-   ![K-maps](images/kmap_empty.png)
+   ![K-maps](https://github.com/OndraFoltyn/digital-electronics-1/blob/main/labs/02-logic/images/b_menis_nez_A.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
@@ -29,13 +29,13 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
+        s_b <= "0100"; -- second last ID digit (4)
+        s_a <= "0101"; wait for 100 ns; -- last ID digit (5)
         wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
         -- If false, then report an error
         report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
 
