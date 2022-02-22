@@ -33,8 +33,8 @@
         s_a <= "0101"; wait for 100 ns; -- last ID digit (5)
         -- Expected output
         assert ((s_B_greater_A = '0') and
-                (s_B_equals_A  = '1') and
-                (s_B_less_A    = '0'))
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
         -- If false, then report an error
         report "Input combination 0100, 0101 FAILED" severity error;
 
