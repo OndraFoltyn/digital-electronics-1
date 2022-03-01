@@ -11,7 +11,7 @@ begin
     f_o <= a_i when (sel_i = "00") else  
        b_i when (sel_i = "01") else
        c_i when (sel_i = "10") else
-       d_i;
+       d_i;  -- All other combinations
 
 end architecture Behavioral;
 ```
