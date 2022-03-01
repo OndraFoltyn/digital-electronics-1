@@ -21,3 +21,7 @@
     | 1 | 0 | 1 | 1 | 0 |
     | 1 | 1 | 0 | 1 | 0 |
     | 1 | 1 | 1 | 1 | 1 |
+
+3. Find the relationship between half adder and full adder logic diagrams.
+
+4. See schematic of the [CPLD expansion board](../../Docs/cpld_expansion.pdf) and find out the connection of LEDs, push buttons, and slide switches.
