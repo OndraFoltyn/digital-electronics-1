@@ -24,6 +24,8 @@
     | 1 | 0 | 1 | 1 | 0 |
     | 1 | 1 | 0 | 1 | 0 |
     | 1 | 1 | 1 | 1 | 1 |
+    
+![mujobrazek](https://github.com/OndraFoltyn/digital-electronics-1/blob/main/labs/04-adder/images/full-adder.png)
 
 3. Find the relationship between half adder and full adder logic diagrams.
 
