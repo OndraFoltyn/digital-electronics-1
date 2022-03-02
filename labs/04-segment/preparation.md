@@ -25,3 +25,4 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
    | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
    | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
+![obrazek](https://github.com/OndraFoltyn/digital-electronics-1/blob/main/labs/04-segment/images/display.png)
