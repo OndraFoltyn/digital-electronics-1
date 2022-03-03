@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 03/03/2022 01:07:14 PM
+-- Create Date: 03/03/2022 01:44:21 PM
 -- Design Name: 
 -- Module Name: hex_7seg - Behavioral
 -- Project Name: 
@@ -32,41 +32,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity hex_7seg is
-    Port ( hex_i : in STD_LOGIC_VECTOR (3 downto 0);
-           seg_o : in STD_LOGIC_VECTOR (6 downto 0));
+    Port ( hex_i : in STD_LOGIC_VECTOR (4 - 1 downto 0);
+           seg_o : out STD_LOGIC_VECTOR (7 - 1 downto 0));
 end hex_7seg;
 
-architecture Behavioral of hex_7seg is
-
-begin
-
-
-end Behavioral;
-------------------------------------------------------------
---
--- Template for 7-segment display decoder.
--- Nexys A7-50T, Vivado v2020.1, EDA Playground
---
--- Copyright (c) 2018-Present Tomas Fryza
--- Dept. of Radio Electronics, Brno Univ. of Technology, Czechia
--- This work is licensed under the terms of the MIT license.
---
-------------------------------------------------------------
-
-library ieee;
-use ieee.std_logic_1164.all;
-
-------------------------------------------------------------
--- Entity declaration for seven7-segment display decoder
-------------------------------------------------------------
-entity hex_7seg is
-    port(
-        hex_i : in  std_logic_vector(3 - 1 downto 0);
-        seg_o : out std_logic_vector(6 - 1 downto 0)
-    );
-end entity hex_7seg;
-
-------------------------------------------------------------
 -- Architecture body for seven-segment display decoder
 ------------------------------------------------------------
 architecture Behavioral of hex_7seg is
@@ -124,7 +93,7 @@ begin
             when "1011" =>
                 seg_o <= "1100000";-- b
 
-            when "1100	" =>
+            when "1100" =>
                 seg_o <= "0110001"; -- C
 
             when "1101" =>
