@@ -16,14 +16,24 @@ begin
     --------------------------------------------------------
     p_t_ff_rst : process(clk)
     begin
-
-        -- WRITE YOUR CODE HERE
-
+        if rising_edge(clk) then  -- Synchronous process
+            
+            if(rst = '1') then
+                s_q     <= '0';
+                q       <= '0';
+                q_bar   <= '1';
+            else
+                s_q     <= (t and not(s_q)) or (not(t) and s_q);
+                q       <= s_q;
+                q_bar   <= not s_q;
+                
+            end if;
+            
+        end if;
+        
     end process p_t_ff_rst;
-
-    q     <= s_q;
-    q_bar <= not s_q;
 end architecture Behavioral;
+
 ```
 
 2. Screenshot with simulated time waveforms. Try to simulate both flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
