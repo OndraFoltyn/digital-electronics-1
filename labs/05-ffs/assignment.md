@@ -1,4 +1,4 @@
-# Lab 5: YOUR_FIRSTNAME LASTNAME
+# Lab 5: Ondřej Foltyn
 
 ### Flip-flops
 
