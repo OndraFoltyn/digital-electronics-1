@@ -2,10 +2,10 @@
 
 ### Team members
 
-* Member 1 (responsible for xxx)
-* Member 2 (responsible for xxx)
-* Member 3 (responsible for xxx)
-* ...
+* Drápal Jakub (responsible for xxx)
+* Foltyn Ondřej (responsible for xxx)
+* Fyman Mikuláš (responsible for xxx)
+
 
 ### Table of contents
 
