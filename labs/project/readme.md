@@ -1,4 +1,4 @@
-# YOUR_PROJECT_TITLE
+# Morse code receiver, ie converter of Morse code to characters/numbers.
 
 ### Team members
 
